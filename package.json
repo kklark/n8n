@@ -10,7 +10,8 @@
     "start:default": "cd packages/cli/bin && ./n8n",
     "start:windows": "cd packages/cli/bin && n8n",
     "test": "lerna run test",
-    "watch": "lerna run --parallel watch"
+    "watch": "lerna run --parallel watch",
+		"serve": "env VUE_APP_URL_BASE_API=http://localhost:5678/ vue-cli-service serve"
   },
   "devDependencies": {
     "lerna": "^3.13.1",
