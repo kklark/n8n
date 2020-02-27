@@ -3,6 +3,7 @@
   "private": true,
   "homepage": "https://n8n.io",
   "scripts": {
+		"tsc": "tsc",
     "bootstrap": "lerna bootstrap --hoist --no-ci",
     "build": "lerna exec npm run build",
     "dev": "lerna exec npm run dev --parallel",
@@ -10,8 +11,7 @@
     "start:default": "cd packages/cli/bin && ./n8n",
     "start:windows": "cd packages/cli/bin && n8n",
     "test": "lerna run test",
-    "watch": "lerna run --parallel watch",
-    "serve": "env VUE_APP_URL_BASE_API=http://localhost:5678/ vue-cli-service serve"
+    "watch": "lerna run --parallel watch"
   },
   "devDependencies": {
     "lerna": "^3.13.1",
