@@ -3,6 +3,9 @@
   "name": "n8n",
   "private": true,
   "homepage": "https://n8n.io",
+   "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist --no-ci",
     "build": "lerna exec npm run build",
