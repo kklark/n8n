@@ -3,8 +3,6 @@
   "private": true,
   "homepage": "https://n8n.io",
   "scripts": {
-    "tsc": "tsc",
-    "postinstall": "npm run tsc",
     "bootstrap": "lerna bootstrap --hoist --no-ci",
     "build": "lerna exec npm run build",
     "dev": "lerna exec npm run dev --parallel",
@@ -12,7 +10,9 @@
     "start:default": "cd packages/cli/bin && ./n8n",
     "start:windows": "cd packages/cli/bin && n8n",
     "test": "lerna run test",
-    "watch": "lerna run --parallel watch"
+    "watch": "lerna run --parallel watch",
+		"tsc": "tsc",
+    "postinstall": "npm run tsc"
   },
   "devDependencies": {
     "lerna": "^3.13.1",
