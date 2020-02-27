@@ -10,9 +10,7 @@
     "start:default": "cd packages/cli/bin && ./n8n",
     "start:windows": "cd packages/cli/bin && n8n",
     "test": "lerna run test",
-    "watch": "lerna run --parallel watch",
-    "tsc": "tsc",
-    "postinstall": "npm run tsc"
+    "watch": "lerna run --parallel watch"
   },
   "devDependencies": {
     "lerna": "^3.13.1",
