@@ -11,7 +11,7 @@
     "start:windows": "cd packages/cli/bin && n8n",
     "test": "lerna run test",
     "watch": "lerna run --parallel watch",
-		"tsc": "tsc",
+    "tsc": "tsc",
     "postinstall": "npm run tsc"
   },
   "devDependencies": {
