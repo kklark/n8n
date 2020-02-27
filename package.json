@@ -4,7 +4,7 @@
   "homepage": "https://n8n.io",
   "scripts": {
     "tsc": "tsc",
-		"postinstall": "npm run tsc",
+    "postinstall": "npm run tsc",
     "bootstrap": "lerna bootstrap --hoist --no-ci",
     "build": "lerna exec npm run build",
     "dev": "lerna exec npm run dev --parallel",
