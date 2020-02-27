@@ -3,7 +3,7 @@
   "private": true,
   "homepage": "https://n8n.io",
   "scripts": {
-		"tsc": "tsc",
+    "tsc": "tsc",
     "bootstrap": "lerna bootstrap --hoist --no-ci",
     "build": "lerna exec npm run build",
     "dev": "lerna exec npm run dev --parallel",
