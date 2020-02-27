@@ -1,3 +1,4 @@
+
 {
   "name": "n8n",
   "private": true,
@@ -15,11 +16,8 @@
   "devDependencies": {
     "lerna": "^3.13.1",
     "run-script-os": "^1.0.7",
-    "typescript": "^3.8"
+		"typescript": "^3.8"
   },
   "postcss": {}
-},
- "engines": {
-    "node": ">=10.0.0"
- }
 }
+
